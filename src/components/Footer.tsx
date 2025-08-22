@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-primary rounded-full flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">⚽</span>
               </div>
-              <span className="text-xl font-bold text-foreground">FutbolZone</span>
+              <span className="text-xl font-bold text-foreground">megafut</span>
             </div>
             <p className="text-muted-foreground max-w-md">
               A plataforma definitiva para os apaixonados por futebol. 
@@ -62,7 +62,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 FutbolZone. Todos os direitos reservados. Feito com ❤️ para os amantes do futebol.
+            © 2024 megafut. Todos os direitos reservados. Feito com ❤️ para os amantes do futebol.
           </p>
         </div>
       </div>

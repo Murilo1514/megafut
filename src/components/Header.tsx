@@ -9,7 +9,7 @@ const Header = () => {
           <div className="w-8 h-8 bg-gradient-primary rounded-full flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-lg">⚽</span>
           </div>
-          <span className="text-xl font-bold text-foreground">FutbolZone</span>
+          <span className="text-xl font-bold text-foreground">megafut</span>
         </div>
         
         <div className="flex items-center space-x-4">
