@@ -1,37 +1,37 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Zap, Globe, MessageCircle, BarChart3, Shield, Smartphone } from "lucide-react";
+import { Users, Trophy, Target, MessageSquare, Calendar, Zap } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
+      icon: <Users className="w-8 h-8 text-primary" />,
+      title: "Encontre Jogadores",
+      description: "Conecte-se com jogadores da sua região que estão procurando time ou parceiros para jogar."
+    },
+    {
+      icon: <Trophy className="w-8 h-8 text-primary" />,
+      title: "Monte Seu Time",
+      description: "Crie e gerencie seu time, convide amigos e organize sua escalação para as partidas."
+    },
+    {
+      icon: <Target className="w-8 h-8 text-primary" />,
+      title: "Agende Partidas",
+      description: "Marque jogos com outros times, escolha local, horário e tipo de partida (amistoso, torneio)."
+    },
+    {
+      icon: <MessageSquare className="w-8 h-8 text-primary" />,
+      title: "Chat do Time",
+      description: "Mantenha contato com seu time através de mensagens e organize estratégias."
+    },
+    {
+      icon: <Calendar className="w-8 h-8 text-primary" />,
+      title: "Calendário de Jogos",
+      description: "Acompanhe todas as suas partidas agendadas e receba lembretes automáticos."
+    },
+    {
       icon: <Zap className="w-8 h-8 text-primary" />,
-      title: "Atualizações em Tempo Real",
-      description: "Receba notificações instantâneas sobre gols, cartões e mudanças nos seus jogos favoritos."
-    },
-    {
-      icon: <Globe className="w-8 h-8 text-primary" />,
-      title: "Cobertura Global",
-      description: "Acompanhe ligas e campeonatos do mundo inteiro, desde a Premier League até o Brasileirão."
-    },
-    {
-      icon: <MessageCircle className="w-8 h-8 text-primary" />,
-      title: "Chat ao Vivo",
-      description: "Converse com outros torcedores durante os jogos e compartilhe suas emoções."
-    },
-    {
-      icon: <BarChart3 className="w-8 h-8 text-primary" />,
-      title: "Estatísticas Detalhadas",
-      description: "Análises profundas com dados de desempenho, formações e histórico de confrontos."
-    },
-    {
-      icon: <Shield className="w-8 h-8 text-primary" />,
-      title: "Comunidade Segura",
-      description: "Ambiente moderado e respeitoso para discussões saudáveis sobre futebol."
-    },
-    {
-      icon: <Smartphone className="w-8 h-8 text-primary" />,
-      title: "App Mobile",
-      description: "Leve sua paixão pelo futebol para qualquer lugar com nosso app otimizado."
+      title: "Busca Rápida",
+      description: "Encontre rapidamente jogadores, times e campos disponíveis na sua área."
     }
   ];
 
@@ -40,10 +40,10 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Por que escolher a MegaFut?
+            Por que escolher o MegaFut?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Descubra tudo o que você precisa para viver o futebol de forma completa
+            A plataforma que conecta jogadores e organiza partidas. Encontre seu time, agende jogos e viva sua paixão pelo futebol.
           </p>
         </div>
         
