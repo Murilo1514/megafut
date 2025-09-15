@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { LogIn, UserPlus } from "lucide-react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Header = () => {
   return (
@@ -13,13 +14,14 @@ const Header = () => {
         </div>
         
         <div className="flex items-center space-x-4">
-          <Button variant="login" size="default" asChild>
+          <ThemeToggle />
+          <Button variant="outline" size="default" asChild>
             <a href="/login">
               <LogIn className="w-4 h-4" />
               Login
             </a>
           </Button>
-          <Button variant="signup" size="default" asChild>
+          <Button variant="default" size="default" asChild>
             <a href="/signup">
               <UserPlus className="w-4 h-4" />
               Cadastrar

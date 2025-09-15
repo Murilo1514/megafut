@@ -11,28 +11,27 @@ const CTA = () => {
           </div>
           
           <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
-            Pronto para entrar em campo?
+            Transforme suas peladas em experiências profissionais
           </h2>
           
           <p className="text-xl text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Junte-se a milhares de jogadores e encontre seu time ideal. Organize partidas e viva sua paixão pelo futebol.
+            Cadastre-se gratuitamente e comece a organizar campeonatos, criar seu time e ganhar cartinhas digitais personalizadas.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
-              variant="hero-outline" 
               size="lg" 
-              className="text-lg px-8 py-4 bg-primary-foreground text-primary hover:bg-primary-foreground/90 border-primary-foreground"
+              className="text-lg px-8 py-4 bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             >
               <ArrowRight className="w-5 h-5" />
-              Encontrar Meu Time
+              Criar Minha Conta
             </Button>
             <Button 
-              variant="ghost" 
+              variant="outline" 
               size="lg" 
-              className="text-lg px-8 py-4 text-primary-foreground hover:bg-primary-foreground/10 border border-primary-foreground/20"
+              className="text-lg px-8 py-4 text-primary-foreground hover:bg-primary-foreground/10 border border-primary-foreground/30"
             >
-              Explorar Jogadores
+              Explorar Funcionalidades
             </Button>
           </div>
           

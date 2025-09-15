@@ -5,33 +5,33 @@ const Features = () => {
   const features = [
     {
       icon: <Users className="w-8 h-8 text-primary" />,
-      title: "Encontre Jogadores",
-      description: "Conecte-se com jogadores da sua região que estão procurando time ou parceiros para jogar."
+      title: "Perfil Gamificado",
+      description: "Crie seu perfil com cartinha personalizada estilo FIFA. Ganhe badges e conquistas baseadas no seu desempenho."
     },
     {
       icon: <Trophy className="w-8 h-8 text-primary" />,
-      title: "Monte Seu Time",
-      description: "Crie e gerencie seu time, convide amigos e organize sua escalação para as partidas."
+      title: "Times e Campeonatos",
+      description: "Crie times, participe de campeonatos estruturados com tabelas automáticas e validação de resultados."
     },
     {
       icon: <Target className="w-8 h-8 text-primary" />,
-      title: "Agende Partidas",
-      description: "Marque jogos com outros times, escolha local, horário e tipo de partida (amistoso, torneio)."
+      title: "Ligas Individuais",
+      description: "Participe de ligas estilo Faceit com sorteios automáticos e ranking individual baseado no desempenho."
     },
     {
       icon: <MessageSquare className="w-8 h-8 text-primary" />,
-      title: "Chat do Time",
-      description: "Mantenha contato com seu time através de mensagens e organize estratégias."
+      title: "Jogos Únicos",
+      description: "Organize peladas casuais com divisão automática de times balanceada pelo overall dos jogadores."
     },
     {
       icon: <Calendar className="w-8 h-8 text-primary" />,
-      title: "Calendário de Jogos",
-      description: "Acompanhe todas as suas partidas agendadas e receba lembretes automáticos."
+      title: "Portal de Quadras",
+      description: "Encontre quadras na sua região com informações de preço, localização e horários de funcionamento."
     },
     {
       icon: <Zap className="w-8 h-8 text-primary" />,
-      title: "Busca Rápida",
-      description: "Encontre rapidamente jogadores, times e campos disponíveis na sua área."
+      title: "Sistema de Avaliação",
+      description: "Avalie outros jogadores após as partidas e construa sua reputação na comunidade."
     }
   ];
 
@@ -40,10 +40,10 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Por que escolher o MegaFut?
+            Funcionalidades completas para o futebol amador
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A plataforma que conecta jogadores e organiza partidas. Encontre seu time, agende jogos e viva sua paixão pelo futebol.
+            Desde jogos casuais até campeonatos profissionais. O MegaFut oferece tudo que você precisa para organizar e participar de partidas de futebol.
           </p>
         </div>
         
