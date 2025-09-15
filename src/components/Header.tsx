@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { LogIn, UserPlus } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -16,16 +17,16 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <ThemeToggle />
           <Button variant="outline" size="default" asChild>
-            <a href="/login">
-              <LogIn className="w-4 h-4" />
+            <Link to="/login">
+              <LogIn className="w-4 h-4 mr-2" />
               Login
-            </a>
+            </Link>
           </Button>
           <Button variant="default" size="default" asChild>
-            <a href="/signup">
-              <UserPlus className="w-4 h-4" />
+            <Link to="/signup">
+              <UserPlus className="w-4 h-4 mr-2" />
               Cadastrar
-            </a>
+            </Link>
           </Button>
         </div>
       </div>

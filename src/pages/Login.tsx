@@ -15,6 +15,28 @@ const Login = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // TODO: Implementar chamada para API de login
+    // const response = await fetch('/api/auth/login', {
+    //   method: 'POST',
+    //   headers: { 'Content-Type': 'application/json' },
+    //   body: JSON.stringify({
+    //     email: formData.email,
+    //     password: formData.password
+    //   })
+    // });
+    // 
+    // if (response.ok) {
+    //   const { token, user } = await response.json();
+    //   localStorage.setItem('authToken', token);
+    //   // Redirecionar para dashboard após login bem-sucedido
+    //   navigate('/dashboard');
+    // } else {
+    //   const error = await response.json();
+    //   // Mostrar erro de login para o usuário
+    //   console.error('Erro no login:', error.message);
+    // }
+    
     console.log("Login attempt:", formData);
     // Aqui você implementaria a lógica de login
   };

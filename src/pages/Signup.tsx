@@ -31,6 +31,29 @@ const Signup = () => {
       return;
     }
     
+    // TODO: Implementar chamada para API de cadastro
+    // const response = await fetch('/api/auth/signup', {
+    //   method: 'POST',
+    //   headers: { 'Content-Type': 'application/json' },
+    //   body: JSON.stringify({
+    //     name: formData.name,
+    //     email: formData.email,
+    //     phone: formData.phone,
+    //     password: formData.password
+    //   })
+    // });
+    // 
+    // if (response.ok) {
+    //   const { message } = await response.json();
+    //   // Mostrar mensagem de sucesso
+    //   alert('Conta criada com sucesso! Faça login para continuar.');
+    //   navigate('/login');
+    // } else {
+    //   const error = await response.json();
+    //   // Mostrar erro de cadastro para o usuário
+    //   console.error('Erro no cadastro:', error.message);
+    // }
+    
     console.log("Signup attempt:", formData);
     // Aqui você implementaria a lógica de cadastro
   };
