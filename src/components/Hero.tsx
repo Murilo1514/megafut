@@ -1,17 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Play, Users, Trophy, Target } from "lucide-react";
 import heroImage from "@/assets/football-hero.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-        }}
-      >
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroImage})`
+    }}>
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/70 to-background/30"></div>
       </div>
       
@@ -37,10 +32,7 @@ const Hero = () => {
               <Play className="w-5 h-5" />
               Começar Agora
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4">
-              <Users className="w-5 h-5" />
-              Ver Demo
-            </Button>
+            
           </div>
           
           <p className="text-sm text-muted-foreground mb-12">
@@ -80,8 +72,6 @@ const Hero = () => {
       <div className="absolute top-20 left-10 w-4 h-4 bg-primary rounded-full animate-glow opacity-60"></div>
       <div className="absolute bottom-32 right-20 w-6 h-6 bg-field-green rounded-full animate-glow opacity-40 animation-delay-1000"></div>
       <div className="absolute top-1/2 right-10 w-3 h-3 bg-primary rounded-full animate-glow opacity-50 animation-delay-2000"></div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
